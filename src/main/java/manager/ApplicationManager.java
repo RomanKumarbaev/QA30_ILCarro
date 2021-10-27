@@ -9,18 +9,17 @@ public class ApplicationManager {
     WebDriver wd;
     UserHelper userHelper;
 
-    public  void init(){
+    public void init() {
         wd = new ChromeDriver();
         wd.manage().window().maximize();
         wd.navigate().to("https://ilcarro.xyz/search");
-        wd.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
-    userHelper = new UserHelper(wd);
-
+        wd.manage().timeouts().implicitlyWait(8, TimeUnit.SECONDS);
+        userHelper = new UserHelper(wd);
 
 
     }
 
-    public void stop(){
+    public void stop() {
 
     }
 

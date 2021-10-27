@@ -1,15 +1,18 @@
 package tests;
 
+import models.User;
 import org.openqa.selenium.By;
+import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class LoginTests extends TestBase{
+public class LoginTests extends TestBase {
 
 
     @BeforeMethod
-    public void precondition(){
-        if(!app.getUserHelper().isLogInPresent()){
+    public void precondition() {
+        if (!app.getUserHelper().isLogInPresent()) {
             app.getUserHelper().logOut();
         }
 
@@ -17,21 +20,47 @@ public class LoginTests extends TestBase{
     }
 
 
-@Test
-    public void test(){
+    @Test
+    public void loginSuccess() {
 
-    String email = "wew@gmail.com";
-    String password = "Ar12345$";
+        User user= new User().withEmail("wew@gmail.com").withPassword("Ar12345$");
 
-    app.getUserHelper().click(By.xpath("//a[@class='navigation-link'][normalize-space()='Log in']"));
-    app.getUserHelper().fillLoginForm(email,password);
-    app.getUserHelper().click(By.xpath("//button[@type='submit']"));
+        String email = "wew@gmail.com";
+        String password = "Ar12345$";
+
+        app.getUserHelper().openLogInForm();
+
+        //app.getUserHelper().fillLoginForm(email, password);
+
+        app.getUserHelper().fillLoginForm(user);
+
+        app.getUserHelper().submitForm();
+
+        Assert.assertTrue(app.getUserHelper().isLoggedSuccess());
+
+    }
+
+    @Test
+    public void loginSuccess2() {
+
+        String email = "wew@gmail.com";
+        String password = "Ar12345$";
 
 
+        app.getUserHelper().openLogInForm();
 
+        app.getUserHelper().fillLoginForm(email, password);
 
-}
+        app.getUserHelper().submitForm();
+        Assert.assertTrue(app.getUserHelper().isLoggedSuccess());
 
+    }
+    @AfterMethod
+    public void postCondition(){
+
+        app.getUserHelper().clickOkButton();
+
+    }
 
 
 }
