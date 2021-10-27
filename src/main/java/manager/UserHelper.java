@@ -12,6 +12,7 @@ public class UserHelper extends HelperBase {
 
     public void fillLoginForm(String email, String password){
 
+
         type(By.xpath("//input[@id='email']"),email);
 
         type(By.xpath("//input[@id='password']"),password);
@@ -19,6 +20,15 @@ public class UserHelper extends HelperBase {
     }
 
 
+    public boolean isLogInPresent() {
 
+        return isElementPresent(By.xpath("//a[text()=' Log in ']"));
+
+    }
+
+    public void logOut() {
+        click(By.xpath("//a[text()=' Logout ']"));
+
+    }
 }
 
