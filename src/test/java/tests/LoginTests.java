@@ -1,7 +1,6 @@
 package tests;
 
 import models.User;
-import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -23,7 +22,7 @@ public class LoginTests extends TestBase {
     @Test
     public void loginSuccess() {
 
-        User user= new User().withEmail("wew@gmail.com").withPassword("Ar12345$");
+        User user = new User().withEmail("wew@gmail.com").withPassword("Ar12345$");
 
         String email = "wew@gmail.com";
         String password = "Ar12345$";
@@ -55,8 +54,9 @@ public class LoginTests extends TestBase {
         Assert.assertTrue(app.getUserHelper().isLoggedSuccess());
 
     }
+
     @AfterMethod
-    public void postCondition(){
+    public void postCondition() {
 
         app.getUserHelper().clickOkButton();
 

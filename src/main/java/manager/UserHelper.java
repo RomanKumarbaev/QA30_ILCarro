@@ -5,7 +5,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class UserHelper extends HelperBase {
@@ -57,7 +56,7 @@ public class UserHelper extends HelperBase {
     }
 
     public boolean isLoggedSuccess() {
-        WebDriverWait wait = new WebDriverWait(wd,10);
+        WebDriverWait wait = new WebDriverWait(wd, 10);
 
         wait.until(ExpectedConditions.visibilityOf(wd.findElement(By.cssSelector(".dialog-container"))));
 
@@ -67,10 +66,10 @@ public class UserHelper extends HelperBase {
 
     public void clickOkButton() {
 
-        if(isElementPresent(By.xpath("//button[text()='Ok']"))){
+        if (isElementPresent(By.xpath("//button[text()='Ok']"))) {
             click(By.xpath("//button[text()='Ok']"));
         }
 
-                }
+    }
 }
 
