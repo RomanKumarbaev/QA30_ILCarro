@@ -52,6 +52,8 @@ public class UserHelper extends HelperBase {
     public void submitForm() {
         //click(By.xpath("//button[@type='submit']"));
         WebElement submit = wd.findElement(By.xpath("//button[@type='submit']"));
+        new WebDriverWait(wd,10).until(ExpectedConditions.elementToBeClickable(submit));
+
         submit.submit();
     }
 
@@ -70,6 +72,14 @@ public class UserHelper extends HelperBase {
             click(By.xpath("//button[text()='Ok']"));
         }
 
+    }
+
+    public void login(User user) {
+        openLogInForm();
+        fillLoginForm(user);
+        submitForm();
+        clickOkButton();
+        pause(3000);
     }
 }
 
