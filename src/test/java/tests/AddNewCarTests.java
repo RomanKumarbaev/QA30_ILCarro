@@ -2,6 +2,7 @@ package tests;
 
 import models.Car;
 import models.User;
+import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -45,9 +46,44 @@ public class AddNewCarTests extends TestBase {
         app.getCar().fillCarForm(car);
         app.getCar().attachedPhoto();
        app.getUserHelper().submitForm();
-
-
+        Assert.assertTrue(app.getCar().isCarAdded());
+        app.getUserHelper().logOutAfterTest();
     }
+
+
+    @Test
+    public void addNewCarTestPositive2() {
+
+        int i=(int)((System.currentTimeMillis()/1000)%3600);
+
+        Car car = Car.builder()
+                .address("Ulan-Ude")
+                .make("Lada")
+                .model("OKA")
+                .year("1992")
+                .engine("1.4")
+                .fuel("Petrol")
+                .gear("SMT")
+                .wD("AWD")
+                .doors("5")
+                .seats("5")
+                .clasS("cheap")
+                .fuelConsumption("6.5")
+                .carRegNumber("100-55-"+i)
+                .price("10")
+                .distanceIncluded("100")
+                .typeFeature("type of")
+                .about("Good car")
+                .build();
+        app.getCar().openCarForm();
+        app.getCar().fillCarForm(car);
+        app.getCar().attachedPhoto();
+        app.getUserHelper().submitForm();
+        Assert.assertTrue(app.getCar().isCarAdded());
+        app.getUserHelper().logOutAfterTest();
+    }
+
+
 
 
 }

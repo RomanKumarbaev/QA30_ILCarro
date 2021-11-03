@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 
 public class CarHelper extends HelperBase{
 
@@ -73,6 +74,11 @@ public class CarHelper extends HelperBase{
 
     public void attachedPhoto() {
         wd.findElement(By.id("photos"))
-                .sendKeys("C:\\QA30\\QA30_ILCarro\\auto.jpeg");
+                .sendKeys("C:\\QA30\\QA30_ILCarro\\5052746996.jpg");
+    }
+
+    public boolean isCarAdded() {
+        return wd.findElements(By.xpath("//h1[.='Car added']")).size() > 0;
+
     }
 }

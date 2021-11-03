@@ -81,5 +81,13 @@ public class UserHelper extends HelperBase {
         clickOkButton();
         pause(3000);
     }
+
+    public void logOutAfterTest() {
+
+        click(By.xpath("//button[.='Search cars']"));
+        click(By.xpath("//a[text()=' Logout ']"));
+
+
+    }
 }
 
