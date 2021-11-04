@@ -12,15 +12,15 @@ public class TestBase {
 
     @BeforeSuite
 
-    public void setUp(){
-app.init();
+    public void setUp() {
+        app.init();
 
 
     }
 
     @AfterSuite
 
-    public void tearDown(){
-   // app.stop();
+    public void tearDown() {
+        // app.stop();
     }
 }

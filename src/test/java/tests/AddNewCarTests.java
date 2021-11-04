@@ -3,6 +3,7 @@ package tests;
 import models.Car;
 import models.User;
 import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -14,6 +15,7 @@ public class AddNewCarTests extends TestBase {
         if (app.getUserHelper().isLogInPresent()) {
             app.getUserHelper().login(new User().withEmail("wew@gmail.com").withPassword("Ar12345$"));
         }
+
 
     }
 
@@ -44,10 +46,11 @@ public class AddNewCarTests extends TestBase {
                 .build();
         app.getCar().openCarForm();
         app.getCar().fillCarForm(car);
-        app.getCar().attachedPhoto();
+        app.getCar().attachedPhoto("C:\\QA30\\QA30_ILCarro\\auto.jpeg");
        app.getUserHelper().submitForm();
         Assert.assertTrue(app.getCar().isCarAdded());
-        app.getUserHelper().logOutAfterTest();
+
+
     }
 
 
@@ -77,11 +80,18 @@ public class AddNewCarTests extends TestBase {
                 .build();
         app.getCar().openCarForm();
         app.getCar().fillCarForm(car);
-        app.getCar().attachedPhoto();
+        app.getCar().attachedPhoto("C:\\QA30\\QA30_ILCarro\\5052746996.jpg");
         app.getUserHelper().submitForm();
         Assert.assertTrue(app.getCar().isCarAdded());
+
+
+    }
+
+    @AfterMethod
+    public void postConditions(){
         app.getUserHelper().logOutAfterTest();
     }
+
 
 
 

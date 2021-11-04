@@ -72,12 +72,13 @@ public class CarHelper extends HelperBase{
 
     }
 
-    public void attachedPhoto() {
+    public void attachedPhoto(String link) {
         wd.findElement(By.id("photos"))
                 .sendKeys("C:\\QA30\\QA30_ILCarro\\5052746996.jpg");
     }
 
     public boolean isCarAdded() {
+        pause(5000);
         return wd.findElements(By.xpath("//h1[.='Car added']")).size() > 0;
 
     }
