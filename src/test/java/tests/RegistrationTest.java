@@ -12,6 +12,7 @@ public class RegistrationTest extends TestBase {
 
         int i = (int) ((System.currentTimeMillis() / 1000) % 3600);
 
+
         User user = new User().withName("Lis")
                 .withLastname("Show")
                 .withEmail("shr" + i + "@gmail.com")
@@ -32,6 +33,7 @@ public class RegistrationTest extends TestBase {
     public void registrationNegativeTest() {
 
         int i = (int) ((System.currentTimeMillis() / 1000) % 3600);
+
 
         User user = new User().withName("Lis")
                 .withLastname("Show")

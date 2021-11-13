@@ -27,6 +27,10 @@ public class LoginTests extends TestBase {
         String email = "wew@gmail.com";
         String password = "Ar12345$";
 
+
+        logger.info("Test Login Success starts with email>>>>"+ email);
+        logger.info("Test Login Success starts with password>>>>"+password);
+
         app.getUserHelper().openLogInForm();
 
         //app.getUserHelper().fillLoginForm(email, password);
@@ -44,7 +48,6 @@ public class LoginTests extends TestBase {
 
         String email = "wew@gmail.com";
         String password = "Ar12345$";
-
 
         app.getUserHelper().openLogInForm();
 

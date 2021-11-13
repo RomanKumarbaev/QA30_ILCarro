@@ -24,6 +24,10 @@ public class AddNewCarTests extends TestBase {
     public void addNewCarTestPositive() {
 
         int i=(int)((System.currentTimeMillis()/1000)%3600);
+        String carNum="100-55-"+i;
+
+
+
 
         Car car = Car.builder()
                 .address("Tel Aviv")
@@ -38,7 +42,7 @@ public class AddNewCarTests extends TestBase {
                 .seats("4")
                 .clasS("c")
                 .fuelConsumption("6.5")
-                .carRegNumber("100-55-"+i)
+                .carRegNumber(carNum)
                 .price("65")
                 .distanceIncluded("500")
                 .typeFeature("type of")
@@ -58,6 +62,10 @@ public class AddNewCarTests extends TestBase {
     public void addNewCarTestPositive2() {
 
         int i=(int)((System.currentTimeMillis()/1000)%3600);
+
+        String carNum="100-55-"+i;
+
+
 
         Car car = Car.builder()
                 .address("Ulan-Ude")
