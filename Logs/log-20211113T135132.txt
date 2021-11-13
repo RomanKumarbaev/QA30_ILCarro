@@ -1,0 +1,4 @@
+13:51:34  INFO  manager.ApplicationManager - Tests start on Chrome Driver
+13:51:36  INFO  tests.TestBase - Test Login Success starts with email>>>>wew@gmail.com
+13:51:36  INFO  tests.TestBase - Test Login Success starts with password>>>>Ar12345$
+13:51:37  INFO  manager.ApplicationManager - Test passed

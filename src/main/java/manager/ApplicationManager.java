@@ -9,6 +9,7 @@ import java.util.concurrent.TimeUnit;
 
 public class ApplicationManager {
     Logger logger = LoggerFactory.getLogger(ApplicationManager.class);
+
     WebDriver wd;
     UserHelper userHelper;
     CarHelper car;
