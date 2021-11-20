@@ -1,0 +1,6 @@
+20:20:26  INFO  manager.ApplicationManager - Tests start on Chrome Driver
+20:20:27  INFO  manager.NgListener - Start of test -->loginSuccess
+20:20:27  INFO  tests.TestBase - Test Login Success starts with email>>>>wew@gmail.com
+20:20:27  INFO  tests.TestBase - Test Login Success starts with password>>>>Ar12345$
+20:20:28  INFO  manager.NgListener - Success  test -->loginSuccess
+20:20:28  INFO  manager.ApplicationManager - Test passed

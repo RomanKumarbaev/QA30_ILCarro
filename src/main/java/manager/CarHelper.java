@@ -2,7 +2,9 @@ package manager;
 
 import models.Car;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -81,5 +83,42 @@ public class CarHelper extends HelperBase{
         pause(5000);
         return wd.findElements(By.xpath("//h1[.='Car added']")).size() > 0;
 
+    }
+
+    public void openSearchForm() {
+
+        click(By.xpath("//a[.=' Search ']"));
+
+    }
+
+    public void fillSearchCarForm(Car rent) {
+
+        typeLocationCarSearch(rent.getAddress());
+        type(By.id("dates"), rent.getRentDay());
+
+        new Actions(wd).sendKeys(Keys.ESCAPE).perform();
+
+
+
+
+
+    }
+
+    private void typeLocationCarSearch(String address) {
+
+        type(By.id("city"),address);
+        click(By.cssSelector("div.pac-item"));
+        pause(1000);
+
+    }
+
+    public void touchSabmit() {
+        click(By.xpath("//button[@type='submit']"));
+    }
+
+    public boolean isCarSearch() {
+        if(wd.findElements(By.xpath("//div[@class='cars-container ng-star-inserted']")).size()>0){
+            return true;
+        } else return false;
     }
 }

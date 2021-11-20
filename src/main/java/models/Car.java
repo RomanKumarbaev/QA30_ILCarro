@@ -13,7 +13,7 @@ import lombok.ToString;
 
 public class Car {
 
-    private String address;
+    String address;
     String make;
     String model;
     String year;
@@ -33,6 +33,7 @@ public class Car {
     String distanceIncluded;
     String typeFeature;
     String about;
+    String rentDay;
 
 
 }

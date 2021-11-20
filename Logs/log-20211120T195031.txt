@@ -1,0 +1,2 @@
+19:50:33  INFO  manager.ApplicationManager - Tests start on Chrome Driver
+19:50:44  INFO  manager.ApplicationManager - Test passed
