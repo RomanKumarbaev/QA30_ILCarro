@@ -1,0 +1,7 @@
+20:39:07  INFO  manager.ApplicationManager - Tests start on Chrome Driver
+20:39:12  INFO  manager.NgListener - Start of test -->loginSuccess2
+20:39:13  INFO  manager.NgListener - Success  test -->loginSuccess2
+20:39:21  INFO  manager.NgListener - Start of test -->loginSuccess2
+20:39:23  INFO  manager.NgListener - Success  test -->loginSuccess2
+20:39:31  INFO  manager.NgListener - Start of test -->loginSuccess2
+20:39:32  INFO  manager.NgListener - Success  test -->loginSuccess2
