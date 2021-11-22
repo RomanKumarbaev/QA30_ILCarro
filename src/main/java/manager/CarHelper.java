@@ -85,36 +85,8 @@ public class CarHelper extends HelperBase{
 
     }
 
-    public void openSearchForm() {
-
-        click(By.xpath("//a[.=' Search ']"));
-
-    }
-
-    public void fillSearchCarForm(Car rent) {
-
-        typeLocationCarSearch(rent.getAddress());
-        type(By.id("dates"), rent.getRentDay());
-
-        new Actions(wd).sendKeys(Keys.ESCAPE).perform();
 
 
-
-
-
-    }
-
-    private void typeLocationCarSearch(String address) {
-
-        type(By.id("city"),address);
-        click(By.cssSelector("div.pac-item"));
-        pause(1000);
-
-    }
-
-    public void touchSabmit() {
-        click(By.xpath("//button[@type='submit']"));
-    }
 
     public boolean isCarSearch() {
         if(wd.findElements(By.xpath("//div[@class='cars-container ng-star-inserted']")).size()>0){

@@ -1,0 +1,5 @@
+22:16:03  INFO  manager.ApplicationManager - Tests start on Chrome Driver
+22:16:04  INFO  manager.NgListener - Start of test -->loginSuccess
+22:16:11  INFO  manager.NgListener - Success  test -->loginSuccess
+22:16:26  INFO  manager.NgListener - Start of test -->loginSuccess
+22:16:33  INFO  manager.NgListener - Test Failure -->java.lang.AssertionError: expected [true] but found [false]
