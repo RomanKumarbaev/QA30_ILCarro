@@ -32,7 +32,7 @@ public class SearchHelper extends HelperBase {
 
         click(By.id("dates"));
 
-        if ((LocalDate.now().getYear()==Integer.parseInt(dataFrom[2])) && (LocalDate.now().getYear()==Integer.parseInt(dataTo[2]))) {
+        if ((LocalDate.now().getYear() == Integer.parseInt(dataFrom[2])) && (LocalDate.now().getYear() == Integer.parseInt(dataTo[2]))) {
 
             if (LocalDate.now().getMonthValue() != Integer.parseInt(dataFrom[0])) {
 
@@ -62,9 +62,9 @@ public class SearchHelper extends HelperBase {
             click(By.xpath(locator2));
         }
 
-        if ((Integer.parseInt(dataFrom[2])==Integer.parseInt(dataTo[2])) && (Integer.parseInt(dataFrom[2]) != LocalDate.now().getYear())){
+        if ((Integer.parseInt(dataFrom[2]) == Integer.parseInt(dataTo[2])) && (Integer.parseInt(dataFrom[2]) != LocalDate.now().getYear())) {
 
-            diffStart=(12 - LocalDate.now().getMonthValue())+Integer.parseInt(dataFrom[0]);
+            diffStart = (12 - LocalDate.now().getMonthValue()) + Integer.parseInt(dataFrom[0]);
 
             for (int i = 0; i < diffStart; i++) {
 
@@ -86,7 +86,7 @@ public class SearchHelper extends HelperBase {
             click(By.xpath(locator2));
         }
 
-        if ((Integer.parseInt(dataFrom[2]) == LocalDate.now().getYear()) && (Integer.parseInt(dataTo[2]) != LocalDate.now().getYear())){
+        if ((Integer.parseInt(dataFrom[2]) == LocalDate.now().getYear()) && (Integer.parseInt(dataTo[2]) != LocalDate.now().getYear())) {
 
             diffStart = Integer.parseInt(dataFrom[0]) - LocalDate.now().getMonthValue();
 
@@ -112,7 +112,7 @@ public class SearchHelper extends HelperBase {
         }
 
 
-        }
+    }
 
     public void fillSearchCarForm(Search rent) {
 
@@ -126,9 +126,10 @@ public class SearchHelper extends HelperBase {
 
 
     }
+
     private void typeLocationCarSearch(String address) {
 
-        type(By.id("city"),address);
+        type(By.id("city"), address);
         click(By.cssSelector("div.pac-item"));
         pause(1000);
 

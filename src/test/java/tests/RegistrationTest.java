@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 public class RegistrationTest extends TestBase {
 
-    @Test (dataProvider = "registrationPositiveModel", dataProviderClass = MyDataProvider.class)
+    @Test (dataProvider = "regestrationCsv", dataProviderClass = MyDataProvider.class)
     public void registrationPositiveTest(User user) {
 
         app.getUserHelper().openRegistrationForm();

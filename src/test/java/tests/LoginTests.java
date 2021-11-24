@@ -48,7 +48,6 @@ public class LoginTests extends TestBase {
 
         Assert.assertTrue(app.getUserHelper().isLoggedSuccess());
 
-
     }
 
     @AfterMethod

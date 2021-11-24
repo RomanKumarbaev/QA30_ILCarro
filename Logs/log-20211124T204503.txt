@@ -1,0 +1,41 @@
+20:45:05  INFO  manager.ApplicationManager - Tests start on Chrome Driver
+20:45:14  INFO  manager.NgListener - Start of test -->addNewCarTestPositive
+20:45:25  INFO  manager.NgListener - Success  test -->addNewCarTestPositive
+20:45:30  INFO  manager.NgListener - Start of test -->addNewCarTestPositive2
+20:45:41  INFO  manager.NgListener - Success  test -->addNewCarTestPositive2
+20:45:41  INFO  manager.NgListener - Start of test -->loginSuccess
+20:45:43  INFO  manager.NgListener - Success  test -->loginSuccess
+20:45:51  INFO  manager.NgListener - Start of test -->loginSuccess
+20:45:53  INFO  manager.NgListener - Success  test -->loginSuccess
+20:46:01  INFO  manager.NgListener - Start of test -->loginSuccess2
+20:46:03  INFO  manager.NgListener - Success  test -->loginSuccess2
+20:46:11  INFO  manager.NgListener - Start of test -->loginSuccess2
+20:46:12  INFO  manager.NgListener - Success  test -->loginSuccess2
+20:46:20  INFO  manager.NgListener - Start of test -->loginSuccess2
+20:46:21  INFO  manager.NgListener - Success  test -->loginSuccess2
+20:46:21  INFO  manager.NgListener - Start of test -->registrationPositiveTest
+20:46:29  INFO  manager.NgListener - Test Failure -->org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text() = ' Sign up ']"}
+  (Session info: chrome=96.0.4664.45)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ROMAN', ip: '172.20.10.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\COMP~1.ROM\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:62281}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 58d2d23d17e07800ca6a19f2e28e60ba
+*** Element info: {Using=xpath, value=//a[text() = ' Sign up ']}
+20:46:37  INFO  manager.NgListener - Start of test -->registrationPositiveTest
+20:46:38  INFO  manager.NgListener - Test Failure -->java.lang.AssertionError: expected [true] but found [false]
+20:46:47  INFO  manager.NgListener - Start of test -->registrationPositiveTest
+20:46:47  INFO  manager.NgListener - Start of test -->searchTest
+20:46:55  INFO  manager.NgListener - Test Failure -->org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#city"}
+  (Session info: chrome=96.0.4664.45)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ROMAN', ip: '172.20.10.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\COMP~1.ROM\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:62281}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 58d2d23d17e07800ca6a19f2e28e60ba
+*** Element info: {Using=id, value=city}
+20:46:55  INFO  manager.NgListener - Start of test -->searchWithSendKeyCarPositiveTest
+20:47:02  INFO  manager.NgListener - Success  test -->searchWithSendKeyCarPositiveTest
+20:47:02  INFO  manager.ApplicationManager - Test passed

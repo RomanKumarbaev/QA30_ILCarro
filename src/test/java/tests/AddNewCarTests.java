@@ -13,7 +13,7 @@ public class AddNewCarTests extends TestBase {
     public void precondition() {
 
         if (app.getUserHelper().isLogInPresent()) {
-            app.getUserHelper().login(new User().withEmail("wew@gmail.com").withPassword("Ar12345$"));
+            app.getUserHelper().login(new User().withEmail(app.email()).withPassword(app.password()));
         }
 
 
@@ -25,9 +25,6 @@ public class AddNewCarTests extends TestBase {
 
         int i=(int)((System.currentTimeMillis()/1000)%3600);
         String carNum="100-55-"+i;
-
-
-
 
         Car car = Car.builder()
                 .address("Tel Aviv")
