@@ -1,0 +1,17 @@
+20:54:06  INFO  manager.NgListener - Start of test -->loginSuccess
+20:54:06  INFO  manager.NgListener - Test Failure -->java.lang.NullPointerException
+20:54:06  INFO  manager.NgListener - Start of test -->loginSuccess
+20:54:06  INFO  manager.NgListener - Test Failure -->java.lang.NullPointerException
+20:54:06  INFO  manager.NgListener - Start of test -->loginSuccess2
+20:54:06  INFO  manager.NgListener - Test Failure -->java.lang.NullPointerException
+20:54:06  INFO  manager.NgListener - Start of test -->loginSuccess2
+20:54:06  INFO  manager.NgListener - Test Failure -->java.lang.NullPointerException
+20:54:06  INFO  manager.NgListener - Start of test -->loginSuccess2
+20:54:06  INFO  manager.NgListener - Test Failure -->java.lang.NullPointerException
+20:54:06  INFO  manager.NgListener - Start of test -->addNewCarTestPositive
+20:54:06  INFO  manager.NgListener - Test Failure -->java.lang.NullPointerException
+20:54:06  INFO  manager.NgListener - Start of test -->addNewCarTestPositive2
+20:54:06  INFO  manager.NgListener - Test Failure -->java.lang.NullPointerException
+20:54:06  INFO  manager.NgListener - Start of test -->registrationPositiveTest
+20:54:06  INFO  manager.NgListener - Start of test -->registrationPositiveTest
+20:54:06  INFO  manager.NgListener - Start of test -->registrationPositiveTest

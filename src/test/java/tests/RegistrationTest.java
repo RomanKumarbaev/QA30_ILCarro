@@ -4,9 +4,19 @@ import manager.MyDataProvider;
 import models.User;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class RegistrationTest extends TestBase {
+
+    @BeforeMethod (alwaysRun = true)
+    public void preCondition(){
+
+        if (app.getUserHelper().isLogInPresent()){
+            app.getUserHelper().logOut();
+        }
+
+    }
 
     @Test (dataProvider = "regestrationCsv", dataProviderClass = MyDataProvider.class)
     public void registrationPositiveTest(User user) {

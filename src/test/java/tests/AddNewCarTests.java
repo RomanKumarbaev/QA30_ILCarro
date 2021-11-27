@@ -20,7 +20,7 @@ public class AddNewCarTests extends TestBase {
     }
 
 
-    @Test
+    @Test (invocationCount = 1)
     public void addNewCarTestPositive() {
 
         int i=(int)((System.currentTimeMillis()/1000)%3600);
@@ -55,7 +55,7 @@ public class AddNewCarTests extends TestBase {
     }
 
 
-    @Test
+    @Test (invocationCount = 3)
     public void addNewCarTestPositive2() {
 
         int i=(int)((System.currentTimeMillis()/1000)%3600);

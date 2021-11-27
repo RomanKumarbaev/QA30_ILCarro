@@ -24,7 +24,7 @@ public class LoginTests extends TestBase {
     }
 
 
-    @Test(dataProvider = "loginModel", dataProviderClass = MyDataProvider.class)
+    @Test( dataProvider = "loginModel", dataProviderClass = MyDataProvider.class)
     public void loginSuccess(User user) {
 
         app.getUserHelper().openLogInForm();
