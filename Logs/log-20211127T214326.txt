@@ -1,0 +1,1 @@
+21:43:26  INFO  manager.ApplicationManager - Tests starts on Chrome Driver

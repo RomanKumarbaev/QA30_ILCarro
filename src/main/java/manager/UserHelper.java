@@ -142,5 +142,9 @@ public class UserHelper extends HelperBase {
             click(By.xpath("//button[text()='Ok']"));
         }
     }
+
+    public boolean isLogIn() {
+        return isElementPresent(By.xpath("//a[text()=' Logout ']"));
+    }
 }
 

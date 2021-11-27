@@ -1,0 +1,26 @@
+21:59:25  INFO  manager.ApplicationManager - Tests starts on Chrome Driver
+21:59:29  INFO  manager.NgListener - Start of test -->loginSuccess
+21:59:32  INFO  manager.NgListener - Success  test -->loginSuccess
+21:59:40  INFO  manager.NgListener - Start of test -->loginSuccess
+21:59:42  INFO  manager.NgListener - Success  test -->loginSuccess
+21:59:50  INFO  manager.NgListener - Start of test -->loginSuccess2
+21:59:51  INFO  manager.NgListener - Success  test -->loginSuccess2
+22:00:00  INFO  manager.NgListener - Start of test -->loginSuccess2
+22:00:01  INFO  manager.NgListener - Success  test -->loginSuccess2
+22:00:09  INFO  manager.NgListener - Start of test -->loginSuccess2
+22:00:10  INFO  manager.NgListener - Success  test -->loginSuccess2
+22:00:18  INFO  manager.NgListener - Start of test -->addNewCarTestPositive
+22:00:29  INFO  manager.NgListener - Success  test -->addNewCarTestPositive
+22:00:34  INFO  manager.NgListener - Start of test -->addNewCarTestPositive2
+22:00:44  INFO  manager.NgListener - Success  test -->addNewCarTestPositive2
+22:00:49  INFO  manager.NgListener - Start of test -->addNewCarTestPositive2
+22:00:59  INFO  manager.NgListener - Success  test -->addNewCarTestPositive2
+22:01:05  INFO  manager.NgListener - Start of test -->addNewCarTestPositive2
+22:01:15  INFO  manager.NgListener - Success  test -->addNewCarTestPositive2
+22:01:23  INFO  manager.NgListener - Start of test -->registrationPositiveTest
+22:01:25  INFO  manager.NgListener - Success  test -->registrationPositiveTest
+22:01:33  INFO  manager.NgListener - Start of test -->registrationPositiveTest
+22:01:34  INFO  manager.NgListener - Success  test -->registrationPositiveTest
+22:01:42  INFO  manager.NgListener - Start of test -->registrationPositiveTest
+22:01:44  INFO  manager.NgListener - Success  test -->registrationPositiveTest
+22:01:44  INFO  manager.ApplicationManager - Test passed

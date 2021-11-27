@@ -1,0 +1,36 @@
+22:04:23  INFO  manager.ApplicationManager - Tests starts on Chrome Driver
+22:04:33  INFO  manager.NgListener - Start of test -->addNewCarTestPositive
+22:04:43  INFO  manager.NgListener - Success  test -->addNewCarTestPositive
+22:04:49  INFO  manager.NgListener - Start of test -->addNewCarTestPositive2
+22:04:59  INFO  manager.NgListener - Success  test -->addNewCarTestPositive2
+22:05:04  INFO  manager.NgListener - Start of test -->addNewCarTestPositive2
+22:05:14  INFO  manager.NgListener - Success  test -->addNewCarTestPositive2
+22:05:20  INFO  manager.NgListener - Start of test -->addNewCarTestPositive2
+22:05:30  INFO  manager.NgListener - Success  test -->addNewCarTestPositive2
+22:05:30  INFO  manager.NgListener - Start of test -->loginSuccess
+22:05:32  INFO  manager.NgListener - Success  test -->loginSuccess
+22:05:40  INFO  manager.NgListener - Start of test -->loginSuccess
+22:05:42  INFO  manager.NgListener - Success  test -->loginSuccess
+22:05:51  INFO  manager.NgListener - Start of test -->loginSuccess2
+22:05:52  INFO  manager.NgListener - Success  test -->loginSuccess2
+22:06:00  INFO  manager.NgListener - Start of test -->loginSuccess2
+22:06:01  INFO  manager.NgListener - Success  test -->loginSuccess2
+22:06:09  INFO  manager.NgListener - Start of test -->loginSuccess2
+22:06:10  INFO  manager.NgListener - Success  test -->loginSuccess2
+22:06:10  INFO  manager.NgListener - Start of test -->registrationPositiveTest
+22:06:12  INFO  manager.NgListener - Test Failure -->java.lang.AssertionError: expected [true] but found [false]
+22:06:20  INFO  manager.NgListener - Start of test -->registrationPositiveTest
+22:06:20  INFO  manager.NgListener - Start of test -->registrationPositiveTest
+22:06:20  INFO  manager.NgListener - Start of test -->searchTest
+22:06:28  INFO  manager.NgListener - Test Failure -->org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#city"}
+  (Session info: chrome=96.0.4664.45)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ROMAN', ip: '192.168.1.186', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\COMP~1.ROM\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:59926}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a7014d4048a16939105051f5a2edc258
+*** Element info: {Using=id, value=city}
+22:06:28  INFO  manager.NgListener - Start of test -->searchWithSendKeyCarPositiveTest
+22:06:35  INFO  manager.NgListener - Success  test -->searchWithSendKeyCarPositiveTest
+22:06:36  INFO  manager.ApplicationManager - Test passed

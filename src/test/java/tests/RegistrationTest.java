@@ -9,10 +9,10 @@ import org.testng.annotations.Test;
 
 public class RegistrationTest extends TestBase {
 
-    @BeforeMethod (alwaysRun = true)
+    @BeforeMethod
     public void preCondition(){
 
-        if (app.getUserHelper().isLogInPresent()){
+        if (app.getUserHelper().isLogIn()){
             app.getUserHelper().logOut();
         }
 
