@@ -1,0 +1,20 @@
+21:18:58  INFO  manager.ApplicationManager - Tests starts on FireFox Driver
+21:19:04  INFO  manager.NgListener - Start of test -->loginSuccess
+21:19:07  INFO  manager.NgListener - Success  test -->loginSuccess
+21:19:16  INFO  manager.NgListener - Start of test -->loginSuccess
+21:19:18  INFO  manager.NgListener - Success  test -->loginSuccess
+21:19:27  INFO  manager.NgListener - Start of test -->loginSuccess2
+21:19:28  INFO  manager.NgListener - Success  test -->loginSuccess2
+21:19:37  INFO  manager.NgListener - Start of test -->loginSuccess2
+21:19:38  INFO  manager.NgListener - Success  test -->loginSuccess2
+21:19:47  INFO  manager.NgListener - Start of test -->loginSuccess2
+21:19:48  INFO  manager.NgListener - Success  test -->loginSuccess2
+21:19:56  INFO  manager.NgListener - Start of test -->addNewCarTestPositive
+21:20:10  INFO  manager.NgListener - Success  test -->addNewCarTestPositive
+21:20:16  INFO  manager.NgListener - Start of test -->addNewCarTestPositive2
+21:20:30  INFO  manager.NgListener - Success  test -->addNewCarTestPositive2
+21:20:36  INFO  manager.NgListener - Start of test -->addNewCarTestPositive2
+21:20:49  INFO  manager.NgListener - Success  test -->addNewCarTestPositive2
+21:20:56  INFO  manager.NgListener - Start of test -->addNewCarTestPositive2
+21:21:09  INFO  manager.NgListener - Success  test -->addNewCarTestPositive2
+21:21:09  INFO  manager.ApplicationManager - Test passed

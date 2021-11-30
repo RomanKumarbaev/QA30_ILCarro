@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.AddNewCarTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-11-30T19:19:56" hostname="ROMAN" time="72.225">
+  <properties/>
+  <testcase name="addNewCarTestPositive" classname="tests.AddNewCarTests" time="13.828"/>
+  <testcase name="addNewCarTestPositive2" classname="tests.AddNewCarTests" time="13.356"/>
+  <testcase name="addNewCarTestPositive2" classname="tests.AddNewCarTests" time="13.35"/>
+  <testcase name="addNewCarTestPositive2" classname="tests.AddNewCarTests" time="13.025"/>
+  <system-out><![CDATA[21:19:56  INFO  manager.NgListener - Start of test -->addNewCarTestPositive
+21:20:10  INFO  manager.NgListener - Success  test -->addNewCarTestPositive
+21:20:16  INFO  manager.NgListener - Start of test -->addNewCarTestPositive2
+21:20:30  INFO  manager.NgListener - Success  test -->addNewCarTestPositive2
+21:20:36  INFO  manager.NgListener - Start of test -->addNewCarTestPositive2
+21:20:49  INFO  manager.NgListener - Success  test -->addNewCarTestPositive2
+21:20:56  INFO  manager.NgListener - Start of test -->addNewCarTestPositive2
+21:21:09  INFO  manager.NgListener - Success  test -->addNewCarTestPositive2
+]]></system-out>
+  <system-err><![CDATA[JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1638299998349	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1638300018163	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1638300038044	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1638300057340	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+]]></system-err>
+</testsuite>

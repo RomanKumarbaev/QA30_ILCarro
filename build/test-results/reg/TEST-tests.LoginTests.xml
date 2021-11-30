@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.LoginTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-11-30T19:19:04" hostname="ROMAN" time="43.629">
+  <properties/>
+  <testcase name="loginSuccess[0](User{name='null', lastname='null', email='wew@gmail.com', password='Ar12345$'})" classname="tests.LoginTests" time="2.769"/>
+  <testcase name="loginSuccess[1](User{name='null', lastname='null', email='shr2287@gmail.com', password='Df12345$'})" classname="tests.LoginTests" time="2.402"/>
+  <testcase name="loginSuccess2[0](wew@gmail.com, Ar12345$)" classname="tests.LoginTests" time="1.487"/>
+  <testcase name="loginSuccess2[1](shr2285@gmail.com, Df12345$)" classname="tests.LoginTests" time="1.33"/>
+  <testcase name="loginSuccess2[2](shr2287@gmail.com, Df12345$)" classname="tests.LoginTests" time="1.316"/>
+  <system-out><![CDATA[21:19:04  INFO  manager.NgListener - Start of test -->loginSuccess
+21:19:07  INFO  manager.NgListener - Success  test -->loginSuccess
+21:19:16  INFO  manager.NgListener - Start of test -->loginSuccess
+21:19:18  INFO  manager.NgListener - Success  test -->loginSuccess
+21:19:27  INFO  manager.NgListener - Start of test -->loginSuccess2
+21:19:28  INFO  manager.NgListener - Success  test -->loginSuccess2
+21:19:37  INFO  manager.NgListener - Start of test -->loginSuccess2
+21:19:38  INFO  manager.NgListener - Success  test -->loginSuccess2
+21:19:47  INFO  manager.NgListener - Start of test -->loginSuccess2
+21:19:48  INFO  manager.NgListener - Success  test -->loginSuccess2
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
