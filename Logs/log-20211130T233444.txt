@@ -1,0 +1,20 @@
+23:34:45  INFO  manager.ApplicationManager - Tests starts on Chrome Driver
+23:34:49  INFO  manager.NgListener - Start of test -->loginSuccess
+23:34:59  INFO  manager.NgListener - Test Failure -->org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".dialog-container"}
+  (Session info: chrome=96.0.4664.45)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ROMAN', ip: '192.168.1.186', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\COMP~1.ROM\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:54758}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6fe22699ada4c9394665574868531c0d
+*** Element info: {Using=css selector, value=.dialog-container}
+23:35:07  INFO  manager.NgListener - Start of test -->loginSuccess
+23:35:08  INFO  manager.NgListener - Test Failure -->org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input _ngcontent-nrt-c100="" autocomplete="username" formcontrolname="email" id="email" type="email" class="ng-dirty ng-valid ng-touched"> is not clickable at point (2038, 306). Other element would receive the click: <div _ngcontent-nrt-c105="" class="login-registration-progress-container">...</div>
+  (Session info: chrome=96.0.4664.45)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ROMAN', ip: '192.168.1.186', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\COMP~1.ROM\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:54758}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6fe22699ada4c9394665574868531c0d
+23:35:12  INFO  manager.ApplicationManager - Test passed

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.LoginTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-11-30T21:35:32" hostname="ROMAN" time="13.374">
+  <properties/>
+  <testcase name="loginSuccess[0](User{name='null', lastname='null', email='wew@gmail.com', password='Ar12345$'})" classname="tests.LoginTests" time="3.137"/>
+  <testcase name="loginSuccess[1](User{name='null', lastname='null', email='shr2287@gmail.com', password='Df12345$'})" classname="tests.LoginTests" time="1.959"/>
+  <system-out><![CDATA[23:35:32  INFO  manager.NgListener - Start of test -->loginSuccess
+23:35:35  INFO  manager.NgListener - Success  test -->loginSuccess
+23:35:43  INFO  manager.NgListener - Start of test -->loginSuccess
+23:35:45  INFO  manager.NgListener - Success  test -->loginSuccess
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
